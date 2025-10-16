@@ -508,7 +508,7 @@ footer .text-center p {
   align-items: center;
   justify-content: space-between;
   padding: 12px 40px;
-  box-shadow: 0 2px 10px rgba(255, 215, 0, 0.2); /* soft golden glow */
+  box-shadow: 0 2px 10px rgba(255, 215, 0, 0.2); 
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -559,13 +559,13 @@ footer .text-center p {
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
 }
 
-/* When scrolling, add a subtle transparent look */
+
 .navbar.scrolled {
   background-color: rgba(0, 0, 0, 0.9);
   box-shadow: 0 2px 12px rgba(255, 215, 0, 0.25);
 }
 
-/* To prevent content hiding behind fixed navbar */
+
 body {
   padding-top: 80px;
 }
